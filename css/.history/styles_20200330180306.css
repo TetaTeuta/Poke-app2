@@ -75,12 +75,11 @@ ul{
   }
 
   #modal-container.is-visible {
-    display: grid;
     justify-content: center;
     align-items: center;
     text-align: center;
     position: fixed;
-    margin-left: 40%;
+    box-sizing: border-box;
     width: 20rem;
     height: 30rem;
     border-radius: 2%;

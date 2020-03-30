@@ -71,16 +71,18 @@ ul{
     justify-content: center;
     align-items: center;
     text-align: center;
+    background-color: #23233d;
 
   }
 
   #modal-container.is-visible {
-    display: grid;
+    display: inline-flex;
     justify-content: center;
     align-items: center;
     text-align: center;
-    position: fixed;
-    margin-left: 40%;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-right: 50%;
     width: 20rem;
     height: 30rem;
     border-radius: 2%;

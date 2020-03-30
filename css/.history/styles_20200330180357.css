@@ -80,7 +80,8 @@ ul{
     align-items: center;
     text-align: center;
     position: fixed;
-    margin-left: 40%;
+    margin: 20%;
+    box-sizing: border-box;
     width: 20rem;
     height: 30rem;
     border-radius: 2%;
